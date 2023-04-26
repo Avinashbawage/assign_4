@@ -1,0 +1,24 @@
+.maincontainer {
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+
+    input {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.container_left,
+.container_right {
+    height: 80%;
+    border: 1px solid #fff;
+}
+
+.container_left {
+    width: 60%;
+}
+
+.container_right {
+    width: 30%;
+}

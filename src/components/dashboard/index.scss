@@ -1,0 +1,48 @@
+.container {
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.dashboard {
+    color: #fff;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.mainbox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+    box-shadow: 1px 1px 5px 0 #455c71;
+    width: 450px;
+    height: 550px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.box5 {
+    width: calc(100% - 20px);
+    margin: 20px auto;
+    height: 550px;
+    box-shadow: 1px 1px 5px 0 #455c71;
+
+    .orderlist {
+        display: block;
+        padding: 20px;
+        text-align: left;
+
+
+    }
+}

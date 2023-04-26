@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 40px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid grey;
+    ;
+
+    a {
+        color: aliceblue;
+        text-decoration: none;
+    }
+
+    .menus {
+        display: flex;
+        justify-content: space-between;
+        gap: 0 30px;
+        cursor: pointer;
+
+    }
+}
